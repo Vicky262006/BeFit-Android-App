@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Befit</string>
+
+    <string name="dashboard_title">Dashboard</string>
+
+    <string name="greeting">Hello, %1$s 💪</string>
+    <string name="greeting_subtitle">Ready to crush your goals?</string>
+    <string name="greeting_placeholder">Hello, User!</string>
+
+    <string name="weekly_workouts">Weekly Workouts</string>
+
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+
+    <string name="workout_plan">Workout Plan</string>
+    <string name="workout_plan_desc">View &amp; manage your workouts</string>
+
+    <string name="track_workout">Track Workout</string>
+    <string name="track_workout_desc">Log your sets and reps</string>
+
+    <string name="progress">Progress</string>
+    <string name="progress_desc">Track your strength growth</string>
+
+</resources>

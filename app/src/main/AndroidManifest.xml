@@ -1,0 +1,35 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.befit">
+
+    <application
+        android:allowBackup="true"
+        android:label="BeFit"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.Befit">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".WorkoutPlanActivity" />
+        <activity android:name=".WorkoutSessionActivity" />
+        <activity android:name=".ProgressActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".TrackerActivity" />
+        <activity android:name=".WorkoutLogActivity" />
+
+
+        <!-- Splash / Launcher -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

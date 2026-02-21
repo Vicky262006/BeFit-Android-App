@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:hint="kg"
+        android:inputType="number"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="48dp"/>
+
+    <EditText
+        android:id="@+id/etReps"
+        android:hint="reps"
+        android:inputType="number"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="48dp"/>
+</LinearLayout>

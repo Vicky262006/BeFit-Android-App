@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Spinner
+            android:id="@+id/daySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etExercise"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Exercise name"
+            android:inputType="textPersonName"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etSets"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Sets"
+            android:inputType="number"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnAddExercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Exercise" />
+
+        <LinearLayout
+            android:id="@+id/listContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="12dp" />
+
+        <Button
+            android:id="@+id/btnSavePlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Day Plan"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
